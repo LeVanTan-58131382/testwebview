@@ -119,6 +119,14 @@ body {
   }
 }
 </style>
+
+<script>
+
+function myFunction() {
+  Print.postMessage('Hello World being called from Javascript code');
+}
+
+</script>
 </head>
 <body>
 
@@ -131,7 +139,7 @@ body {
     <a href="#" class="active">Home</a>
     <a href="#">Link</a>
     <a href="#">Link</a>
-    <a href="#" class="right">Link</a>
+    <a href="#" class="right"><button onclick="myFunction()">Logout</button></a>
 </div>
 
 <div class="row">
